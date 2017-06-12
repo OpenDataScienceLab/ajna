@@ -1,7 +1,7 @@
 <div id="fixed_width_content">
       
     <br>
-    <center><img src="https://github.com/ekamioka/ajna/blob/master/image/ajna-small.jpg" alt="logo"></center>
+    <center><img src="../image/ajna-small.jpg" alt="logo"></center>
     <br>
 
     <center><h2>AJNA</h2></center>
@@ -14,9 +14,15 @@
     <br>
     <center><h3>Application</h3></center>  
     <p>
-    So far (Aug 2016), the platform Ajna is just a functional prototype to help in the process of Exploratory Data Analysis.
-    Therefore, new functionalities and application are comming soon. If you would like to see a functionality implemented, please
-    feel free to fork the project or open a comment into the github project.
+    The platform Ajna is a functional prototype to help in the process of Exploratory Data Analysis.
+    New functionalities and applications are comming soon. If you would like to see a functionality implemented, please
+    feel free to fork the project or open an issue into the github project.
+    
+    <br><br>So far there is no target audience (business users, data analysts, etc.). It was created in the spare time during the last 2 days to explore R Shiny with Bootstrap. I think I will define the target on-the-fly. I just wanted to take it from the idea stage, implement and share as a skeleton, so people can build upon.
+    
+    <br><br>To test the tool, I suggest downloading and using this file:<a href="https://app.box.com/s/k8ucnya2ughr82g1wvhjq9fg47b6fduy" target="_blank"> wine.csv</a>
+    
+    <br><br>The file upload is limited to a size of 10MB because of my current hosting plan in Shinyapps. Therefore, I tested with files bigger than 500MB without crashes and freezes.
     </p>
     
 
@@ -27,7 +33,7 @@
     
     2. We assume that the first row in the file is the header;<br>
     
-    3. We assume the data is already cleaned and converted to numerical, although categorical will be identified though. The descriptive statistics is 
+    3. We assume the data is already cleaned and converted to numerical, although categorical will be identified too. The descriptive statistics is 
     fully functional for numerical data and perhaps the graphs will not work properly with categorical, text, unstructured data and so on.
     </p>
 
@@ -61,9 +67,20 @@
     <center><h3>License</h3></center>
     <p>
     This app comes with the
-    <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">
-    GNU General Public License (GPL) version 2 (#GPLv2)</a>.
+    <a href="https://opensource.org/licenses/MIT" target="_blank">
+    MIT License (MIT)</a>.
     <p>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82435609-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 
 
 </div>
